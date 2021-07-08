@@ -10,7 +10,13 @@ This project seeks to create a model that classifies whether a patient is likely
 Hospitals in USA spent over $41 billion on patients who got readmitted within 30 days of discharge. Being able to determine factors that lead to higher readmission in such patients, and correspondingly being able to predict which patients will get readmitted can help hospitals save millions of dollars while improving quality of care.
 
 ## Data
-Data was obtained from [Kaggle ](https://www.kaggle.com/brandao/diabetes)
+The data was obtained from [Kaggle](https://www.kaggle.com/brandao/diabetes) . The data contains attributes such as patient number, race, gender, age, admission type, time in hospital, number of lab test performed, HbA1c test result, diagnosis, number of medication, diabetic medications, number of outpatient, inpatient, and emergency visits in the year before the hospitalization, etc.
+
+The dataset suffers from lack of class separation, presenting a challenge for generating predictions and class imbalance of approximately 90% - to - 10%
+
+Out of 101766 Patients record, 99340 records were used for the analysis.
+
+Reason to not use those 2400 records (2.3%) was because of the missing values and the decision was made to drop those records and not to use available techniques to fill the missing values as this is a medical dataset.
 
 ## OSMEN Process
 
