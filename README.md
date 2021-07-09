@@ -35,11 +35,12 @@ It was found that if the patient had more Inpatients stays in hospital over a pa
 
 It was Found that the Patients that were encountered Diabetic during diagnosis had higher probability of readmission within 30 days.
 The primary diagnosis is the root cause of the visit. The Secondary diagnosis/diagnoses, are the other conditions that were either present on admission & directly affect the care given for this visit
-![Condition Vs Price](https://github.com/avithekkc/hospital-readmission-classification/blob/main/images/time_in_hospital.jpg?raw=true)
+![Condition Vs Price](https://github.com/avithekkc/hospital-readmission-classification/blob/main/images/diag.jpg?raw=true)
+
 ### Time In Hospital (Days between admission and discharge)
 
 It was found that if the patient had spent more time in hospital ( considering serious illness ) the probability of readmission within 30 days was higher.
-![Condition Vs Price](https://github.com/avithekkc/hospital-readmission-classification/blob/main/images/diag.jpg?raw=true)
+![Condition Vs Price](https://github.com/avithekkc/hospital-readmission-classification/blob/main/images/time_in_hospital.jpg?raw=true)
 
 ##  Results
 4 classification models were performed to determine best fit:
