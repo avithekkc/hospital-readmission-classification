@@ -46,7 +46,6 @@ It was found that if the patient had spent more time in hospital ( considering s
 
 It was found that if the patient had spent more time in hospital ( considering serious illness ) the probability of readmission within 30 days was higher.
 
-![Condition Vs Price](https://github.com/avithekkc/hospital-readmission-classification/blob/main/images/diag.jpg?raw=true)
 ##  Results
 4 classification models were performed to determine best fit:
 Logistic Regression, Decision Tree, Random Forest, and XGBoost.
